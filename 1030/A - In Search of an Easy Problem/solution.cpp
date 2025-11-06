@@ -1,1 +1,22 @@
-#include<iostream> using namespace std; int main(){    int t;    bool flag = false;    cin>>t;    while(t--){        int n;        cin>>n;        if(n==1) {            flag = true;            break;        }            }    if(flag==false){    cout<<"EASY";     }    else{        cout<<"HARD";    }    return 0;}
+#include<iostream> 
+using namespace std; 
+int main(){    
+  int t;    
+  bool flag = false;    
+  cin>>t;    
+  while(t--){        
+    int n;        
+    cin>>n;        
+    if(n==1) {
+      flag = true;            
+      break;        
+    }            
+  }    
+  if(flag==false){    
+    cout<<"EASY";     
+  }    
+  else{        
+    cout<<"HARD";    
+  }    
+  return 0;
+}
