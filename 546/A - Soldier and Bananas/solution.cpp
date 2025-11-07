@@ -1,0 +1,1 @@
+#include<iostream>using namespace std; int main(){     int k,m,n;    cin>>k>>m>>n;    int sum;    sum = (n*(n+1))/2;    int total_money;    total_money = k*sum;    int borrow;    if(total_money > m){        borrow = abs( m - total_money);        cout<<borrow;    }    else cout<<0;    return 0;}
